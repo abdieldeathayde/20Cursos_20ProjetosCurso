@@ -1,1 +1,1 @@
-Curso completo de web de 2020
+Curso completo de web full stack de 2020
