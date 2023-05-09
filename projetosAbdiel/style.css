@@ -1,0 +1,16 @@
+body {
+	background-color: #add8e6;
+}
+
+
+/*** JavaScript demonstration ***/
+#square {
+	width: 20em;
+	height: 20em;
+	border: 2px inset black;
+	margin-bottom: 1em;
+}
+  
+button {
+	padding: .5em 2em;
+}

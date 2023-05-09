@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styleToDoList.css">
+    <title>To-do List</title>
+</head>
+
+<body>
+    <h1>To-do List</h1>
+
+    <!-- <label for="name">Name (4 to 8 characters):</label> -->
+    <!-- <input type="text" id="name" name="name" required minlength="4" maxlength="8" size="10" placeholder="Digite aqui sua tarefa"> -->
+    <form name="FormTo-doList" action="">
+        <div class="conteudo">
+            <input id="text" name="text" placeholder="Digite aqui sua tarefa">
+            <input type="submit" onclick="incluir()" value="Adicionar">
+            <!-- <button id="botaoAdicionar" name="botaoAdicionar" onclick="incluir()">Adicionar</button> -->
+            <br />
+            <span id="textAtual"></span>
+        </div>
+
+    </form>
+    <script src="assets/js/scriptToDoList.js"></script>
+
+</body>
+
+</html>
